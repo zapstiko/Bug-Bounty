@@ -1,3 +1,3 @@
 # Bug-Bounty
 
-Here Are Some Bug Bounty Resouarch From Twitter
+Here Are Some Bug Bounty Resource From Twitter
