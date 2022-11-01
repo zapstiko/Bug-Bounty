@@ -28,15 +28,7 @@
                     <ul>
                         <li>Intercept the request and change the method GET to POST</li>
                         <li>List all Methods</li>
-                      <table style="height: 17px; width: 230px;" border="0">
-<tbody>
-<tr>
-<td>
-<p>&lt;methodCall&gt;<br />&lt;methodName&gt;system.listMethods&lt;/methodName&gt;<br />&lt;params&gt;&lt;/params&gt;<br />&lt;/methodCall&gt;</p>
-</td>
-</tr>
-</tbody>
-</table>
+                     
                       
                     </ul>
                 </div>
