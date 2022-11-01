@@ -12,7 +12,7 @@
         </tr>
         <tr>
             <td style="width: 49.8839%;"><a href="https://github.com/zapstiko/Bug-Bounty/blob/main/CVE.md#cve-2022-41040"><strong>CVE-2022-41040<br></strong></a></td>
-            <td style="width: 50%;"><a href="https://github.com/zapstiko/Bug-Bounty/blob/main/SQLI%20Payload"><strong>SQLI Payload&nbsp;<br></strong></a></td>
+            <td style="width: 50%;"><a href="https://github.com/zapstiko/Bug-Bounty/blob/main/SQLI/SQLI%20Payload"><strong>SQLI Payload&nbsp;<br></strong></a></td>
         </tr>
         <tr>
             <td style="width: 49.8839%;"><br></td>
