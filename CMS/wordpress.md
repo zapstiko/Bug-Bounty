@@ -28,7 +28,6 @@
                     <ul>
                         <li>Intercept the request and change the method GET to POST</li>
                         <li>List all Methods</li>
-                        
                     </ul>
                 </div>
             </div>
