@@ -9,8 +9,7 @@
 
 ## @hunter0x7
 ```
-  POST /admin/forgot_password HTTP/1.1
-  Host: web..com&quot;&gt;&lt;img src=&quot;Blind XSS Here&quot;&gt;
-  
-  ```
+POST /admin/forgot_password HTTP/1.1
+Host: web..com&quot;&gt;&lt;img src=&quot;Blind XSS Here&quot;&gt;
+```
 
