@@ -19,6 +19,8 @@ guest
 'or position()=2 or'
 admin' or '
 admin' or '1'='2
+'||'1'=='1
+admin'||'1'=='1
 *
 *)(&
 *)(|(&
