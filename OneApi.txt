@@ -387,6 +387,9 @@ Recursive
 /api/v1/tracking
 /api/v1/user
 /api/v1/users/current
+/rest/menu/latest/admin?maxResults=1000
+/rest/api/2/projectCategory?maxResults=1000
+/rest/api/2/resolution?maxResults=1000
 /api/v1/visits
 /api/v2/accounts
 /api/v2/auth
