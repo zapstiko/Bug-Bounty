@@ -317,6 +317,7 @@ Recursive
 /api/user/me
 /api/users/current
 /api/users/login
+/rest/menu/latest/admin
 /api/v1/account/accounts
 /api/v1/account/accounts/summaries
 /api/v1/account/oauth/ticket
@@ -605,6 +606,7 @@ add_theme_page
 add_theme_support
 add_user_meta
 add_user_to_blog
+
 add_users_page
 add_utility_page
 AddBanner
