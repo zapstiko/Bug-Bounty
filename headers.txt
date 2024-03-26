@@ -1,4 +1,3 @@
-\
 aacomtr_Gzip
 aacomtr_Gzip_g
 AA-Gzip
