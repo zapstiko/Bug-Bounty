@@ -1,0 +1,40 @@
+'
+"
+'"
+.
+/
+\
+%5c
+%27
+%22
+%23
+%3B
+)
+")
+')
+))
+"))
+'))
+#
+;
+''
+`
+``
+,
+""
+//
+\\
+%
+%00
+||#Detection source:["SQL syntax.*MySQL", "Warning.*mysql_.*", "valid MySQL result",
+"MySqlClient\."]
+["PostgreSQL.*ERROR", "Warning.*\Wpg_.*", "valid PostgreSQL result", "Npgsql\."]
+["Driver.* SQL[\-\_\ ]*Server", "OLE DB.* SQL Server", "(\W|\A)SQL Server.*Driver",
+"Warning.*mssql_.*", "(\W|\A)SQL Server.*[0-9a-fA-F]{8}",
+"(?s)Exception.*\WSystem\.Data\.SqlClient\.", "(?s)Exception.*\WRoadhouse\.Cms\."]
+["Microsoft Access Driver", "JET Database Engine", "Access Database Engine"]
+["\bORA-[0-9][0-9][0-9][0-9]", "Oracle error", "Oracle.*Driver", "Warning.*\Woci_.*","Warning.*\Wora_.*"]
+["CLI Driver.*DB2", "DB2 SQL error", "\bdb2_\w+\("]
+["SQLite/JDBCDriver", "SQLite.Exception", "System.Data.SQLite.SQLiteException",
+"Warning.*sqlite_.*", "Warning.*SQLite3::", "\[SQLITE_ERROR\]"]
+["(?i)Warning.*sybase.*", "Sybase message", "Sybase.*Server message.*"]

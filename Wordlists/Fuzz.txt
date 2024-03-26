@@ -1,0 +1,3 @@
+/_wpeprivate/config.json
+/logs
+/logs/user.txt
