@@ -16,14 +16,22 @@ class BurpExtender(IBurpExtender, IHttpListener):
         callbacks.registerHttpListener(self)
         
         self.stdout.println("Blind XSS and Time-Based SQLi Detector loaded.")
+        self.stdout.println("Jython environment is set up correctly.")
     
     def processHttpMessage(self, toolFlag, messageIsRequest, messageInfo):
         if not messageIsRequest:
             return
         
+        self.stdout.println("Processing HTTP request...")
+        
         request_info = self._helpers.analyzeRequest(messageInfo)
         headers = request_info.getHeaders()
         parameters = request_info.getParameters()
+        
+        # Use .format() for Python 2.7 compatibility
+        self.stdout.println("Request URL: {}".format(request_info.getUrl()))
+        self.stdout.println("Headers: {}".format(headers))
+        self.stdout.println("Parameters: {}".format(parameters))
         
         # List of Blind XSS payloads
         blind_xss_payloads = [
@@ -76,21 +84,18 @@ class BurpExtender(IBurpExtender, IHttpListener):
         if headers:
             modified_headers = ArrayList(headers)
             for payload in blind_xss_payloads:
-                # Add the payload as a new header
-                modified_headers.add(f"X-Forwarded-For: {payload}")
-                modified_headers.add(f"User-Agent: {payload}")
-                modified_headers.add(f"Referer: {payload}")
+                modified_headers.add("X-Forwarded-For: {}".format(payload))
+                modified_headers.add("User-Agent: {}".format(payload))
+                modified_headers.add("Referer: {}".format(payload))
                 
-                # Build the modified request with the new headers
                 modified_request = self._helpers.buildHttpMessage(modified_headers, request_info.getBody())
                 self._callbacks.makeHttpRequest(messageInfo.getHttpService(), modified_request)
                 
-                self.stdout.println(f"Injected Blind XSS payload into headers: {payload}")
+                self.stdout.println("Injected Blind XSS payload into headers: {}".format(payload))
                 
-                # Remove the injected payload for the next iteration
-                modified_headers.remove(f"X-Forwarded-For: {payload}")
-                modified_headers.remove(f"User-Agent: {payload}")
-                modified_headers.remove(f"Referer: {payload}")
+                modified_headers.remove("X-Forwarded-For: {}".format(payload))
+                modified_headers.remove("User-Agent: {}".format(payload))
+                modified_headers.remove("Referer: {}".format(payload))
         
         # Inject time-based SQLi payloads into parameters
         if parameters:
@@ -103,20 +108,17 @@ class BurpExtender(IBurpExtender, IHttpListener):
                         else:
                             modified_parameters.add(p)
                     
-                    # Measure response time
                     start_time = time.time()
                     modified_request = self._helpers.buildHttpMessage(headers, self._helpers.buildParameters(modified_parameters))
                     response = self._callbacks.makeHttpRequest(messageInfo.getHttpService(), modified_request)
                     end_time = time.time()
                     
                     response_time = end_time - start_time
-                    self.stdout.println(f"Injected time-based SQLi payload into parameter {param.getName()}: {payload}")
-                    self.stdout.println(f"Response time: {response_time} seconds")
+                    self.stdout.println("Injected time-based SQLi payload into parameter {}: {}".format(param.getName(), payload))
+                    self.stdout.println("Response time: {} seconds".format(response_time))
                     
-                    # Check if the response time indicates a potential vulnerability
-                    if response_time > 5:  # Adjust threshold as needed
-                        self.stdout.println(f"Potential time-based SQLi vulnerability detected in parameter {param.getName()} with payload: {payload}")
+                    if response_time > 5:
+                        self.stdout.println("Potential time-based SQLi vulnerability detected in parameter {} with payload: {}".format(param.getName(), payload))
 
-# Entry point for the extension
 if __name__ in ["__main__", "burp"]:
     BurpExtender()
