@@ -145,6 +145,7 @@ recon-cli -h
 * [BBOT](https://github.com/blacklanternsecurity/bbot) - OSINT automation for hackers.
 * [octosuite](https://github.com/bellingcat/octosuite) - Advanced Github OSINT Framework
 * [GHunt](https://github.com/mxrch/GHunt) - 🕵️‍♂️ Offensive Google framework.
+* [Hudson Rock](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools) - Free Infostealer intelligence toolkit
 
 
 ### Phishing
