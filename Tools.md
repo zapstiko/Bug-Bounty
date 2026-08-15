@@ -134,7 +134,7 @@ recon-cli -h
 * [SpiderFoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
 * [Recon-ng](https://github.com/lanmaster53/recon-ng) - Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources. ![](svg/linux.svg)
 * [FOCA](https://github.com/ElevenPaths/FOCA) - Tool to find metadata and hidden information in the documents. 
-* [Amass](https://github.com/OWASP/Amass) - In-depth Attack Surface Mapping and Asset Discovery
+* [Amass](https://github.com/owasp-amass/amass) - In-depth Attack Surface Mapping and Asset Discovery
 * [Censys-subdomain-finder](https://github.com/christophetd/censys-subdomain-finder) - Perform subdomain enumeration using the certificate transparency logs from Censys.
 * [EmailHarvester](https://github.com/maldevel/EmailHarvester) - Email addresses harvester
 * [Finalrecon](https://github.com/thewhiteh4t/FinalRecon) - The Last Web Recon Tool You'll Need.
@@ -145,6 +145,7 @@ recon-cli -h
 * [BBOT](https://github.com/blacklanternsecurity/bbot) - OSINT automation for hackers.
 * [octosuite](https://github.com/bellingcat/octosuite) - Advanced Github OSINT Framework
 * [GHunt](https://github.com/mxrch/GHunt) - 🕵️‍♂️ Offensive Google framework.
+* [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - Independent X (Twitter) data API for search, follower export, monitors, and MCP.
 
 
 ### Phishing
